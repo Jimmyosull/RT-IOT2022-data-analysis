@@ -4,8 +4,6 @@ from numpy.random import rand
 from numpy  import dot, e, log
 
 class LogisticReg:
-
-
     def sigmoid(self, z):
         sig = 1 / (1 + np.e**(-z))
         return np.nan_to_num(sig, True, 0)
